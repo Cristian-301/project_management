@@ -8,7 +8,7 @@ export default function Sidebar({ handleButton }) {
       </h2>
       <Button handleButton={handleButton} name={" + Add Project"} />
       <ul className="mt-8">
-        <li className="flex justify-between my-4"></li>
+        <li className="flex justify-between my-4">Title of project</li>
       </ul>
     </aside>
   );

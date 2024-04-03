@@ -7,7 +7,6 @@ import { useState } from "react";
 function App() {
   const [newProject, setNewProject] = useState(false);
   function handleClick() {
-    console.log("CIAO");
     setNewProject(true);
   }
   function handleCancel() {
